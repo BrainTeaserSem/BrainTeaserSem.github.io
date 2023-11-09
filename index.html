@@ -83,6 +83,7 @@
             <li><a href="#leaderboard">Leaderboard</a></li>
             <li><a href="#important-dates">Important Dates</a></li>
             <li><a href="#organization">Organization</a></li>
+            <li><a href="#Notes for Codalab">Notes for Codalab</a></li>
         </ul>
     </div>
     <div class="main-content">
@@ -243,7 +244,7 @@
         Participants are encouraged to <a href="https://forms.gle/MePgeDWNZwaEps9V7">register</a> at the earliest and join the <a href="https://groups.google.com/g/brainteaser9">mailing list</a> to stay abreast of updates.</p>
 
     <p> The <a href="https://codalab.lisn.upsaclay.fr/competitions/15566">Codalab Competition</a> is now available!!!</p>
-    <h2 id ="leaderboard"> Leaderboard</h2>
+    <h2 id ="leaderboard"> Leaderboard (Evaluate over the whole dataset in zero-shot setting)</h2>
     <p>Sentence Puzzle</p>
     <table>
         <tr>
@@ -395,6 +396,32 @@
         <!-- Include other rows here -->
     </table>
 
+    <h2 id ="Notes for Codalab"><strong>We have some important notes for our task as follows:</strong></h2>
+    
+    <p><br /> <span>1, We update the public dataset on both GitHub and Codalab platforms. Due to the limitation of our dataset, we replaced the previous trial dataset with a proportion of training data. We wish to save more data for testing to get more consistent, and the current phase only aims to let participants be familiar with the submission format. So, for all teams who already sent their submission file on the Codalab, you can send a new submission file for the new trial data if you want to get the latest feedback. This is not mandatory, as the new trial data has the same format as the previous one, and the previous successful submission means your submission format is correct.&nbsp;</span><br /><span>2. We also allow participants to perform the task in a zero-shot manner (without access to the training data). To make the competition more fair and convenient for later system analysis, we wish each team to add&nbsp;</span><em>ZS&nbsp;</em><span>&nbsp;in their team name to state their result is conducted in a zero-shot manner. We will assume everyone that doesn't have&nbsp;&nbsp;</span><em>ZS</em><span>&nbsp;&nbsp;&nbsp;in their name is fine-tuning</span><br /><span>3. Here is the detailed description of the three phases in Codalab (</span><a href="https://semeval.github.io/SemEval2024/codalab" rel="nofollow" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=zh-CN&amp;q=https://semeval.github.io/SemEval2024/codalab&amp;source=gmail&amp;ust=1698997988120000&amp;usg=AOvVaw3sno3Yuw4NIIrzlTp6AHY5">https://semeval.github.io/SemEval2024/codalab</a><span>). Here is a brief summary:</span><br /><strong>Practice Phase:</strong></p>
+    <ul>
+    <li>Duration: Until approximately 10 Jan 2024 (official dates to be announced).</li>
+    <li>Data:Use of the official evaluation script on trial data.</li>
+    <li>High limit for submissions to allow extensive testing.</li>
+    <li>Public leaderboard to enable participants to verify their format and approach.</li>
+    <li>Purpose: Helps participants prepare by checking formatting and initial performance.</li>
+    </ul>
+    <p><strong>Evaluation Phase:</strong></p>
+    <ul>
+    <li>Duration: Approximately 10 Jan to 31 Jan 2024.</li>
+    <li>Data: Employment of the official evaluation script and official test data.</li>
+    <li>Restriction on submissions, with emphasis typically on the final valid submission on CodaLab.</li>
+    <li>Leaderboard visibility is hidden.</li>
+    <li>Purpose: Official assessment phase, focusing on competition and ranking outcomes.</li>
+    </ul>
+    <p><strong>Post-Evaluation Phase:</strong></p>
+    <ul>
+    <li>Duration: Begins around 31 Jan 2024.</li>
+    <li>Data: Continues the use of the official evaluation script and test data.</li>
+    <li>The submission limit is set high again (e.g., 999).</li>
+    <li>The public leaderboard is public.</li>
+    <li>Purpose: Enables scoring of contrastive runs for detailed analysis in system description papers. Supports future analysis and scoring for systems interested in the task beyond SemEval-2024. Encourages ongoing research and analysis post-competition.</li>
+    </ul>
 </div>
 </body>
 </html>
